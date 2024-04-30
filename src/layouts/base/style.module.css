@@ -1,0 +1,8 @@
+.root {
+  display: grid;
+  grid-template-areas:
+    'header header header header'
+    '. aside main .';
+  grid-template-columns: auto 180px min(700px, 100%) auto;
+  gap: 0.5rem;
+}
