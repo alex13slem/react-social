@@ -7,7 +7,7 @@ import css from './style.module.css';
 
 /**
  * @typedef {Object} User - Пользователь
- * @property {number} id - Уникальный идентификатор пользователя
+ * @property {string} id - Уникальный идентификатор пользователя
  * @property {string} avatar - Аватар пользователя
  * @property {string} name - Имя пользователя
  * @property {string} city - Город пользователя

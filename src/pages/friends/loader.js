@@ -1,10 +1,9 @@
-import data from '../../data/users.json';
+import client from '../../api/client';
 
 async function loader() {
-  const currentUser = data.find((user) => user.id === 1);
-  const users = currentUser.friends.map((friend) =>
-    data.find((user) => user.id === friend.id)
-  );
+  const users = await client
+    .get('/users')
+    .then((users) => users.filter((user) => user.id != 1));
 
   return new Response(JSON.stringify(users), {
     status: 200,

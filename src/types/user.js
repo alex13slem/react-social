@@ -2,7 +2,7 @@ import { shape, string, number, arrayOf, oneOfType, array } from 'prop-types';
 import hobbySchema from './hobby';
 
 const userSchema = shape({
-  id: number.isRequired,
+  id: string.isRequired,
   avatar: string.isRequired,
   name: string.isRequired,
   city: string.isRequired,
