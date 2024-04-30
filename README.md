@@ -1,8 +1,15 @@
-# React + Vite
+# Этап 1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+На этом этапе мы познакомимся с библиотекой для роутинга **React Router**:
 
-Currently, two official plugins are available:
+- Создадим дерево маршрутизации
+- Научимся работать с загрузчиками данных
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Научимся работать с типизацией компонентов с помощью **JSDoc** и **propTypes**
+
+Также вспомним (познакомимся) с хуками:
+
+- useState()
+- useEffect()
+
+По части стилизации познакомимся с удобной стратегией **subgrid**
